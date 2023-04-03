@@ -1,15 +1,25 @@
 body{
-    background-color: #191970;
-    padding: 2rem;
+    background-color: #202066;
+}
+header{
+    padding: 20px;
+}
+main{
+    padding: 10px;
+}
+
+.button_voltar{
+    color: aliceblue;
+    text-decoration: none;
 }
 
 button{
     background-color: #202066;
     color: aliceblue;
-    height: 150px;
+    height: 70px;
     width: 150px;
     border-color: aliceblue;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 button:hover{

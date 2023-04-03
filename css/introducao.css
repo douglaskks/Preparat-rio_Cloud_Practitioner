@@ -1,0 +1,26 @@
+body{
+    background-color: #202066;
+    color: aliceblue;
+    text-align: center;
+}
+
+.apresentacao{
+    text-align: justify;
+}
+.titulo-2{
+    text-align: left;
+    text-align: justify;
+    height: 100%;
+    width: 600px;
+}
+
+header{
+    text-decoration: none;
+    color: aliceblue;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    text-align: left;
+}
