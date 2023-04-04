@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/core.css">
+    <title>AWS Core Design Architecture</title>
+</head>
+<body>
+    <header>
+        <a class="button_voltar" href="/html/cloud/cloud.html">Voltar</a>
+    </header>
+
+    <main>
+        <div>
+            <h1>AWS Well-Architected Framework</h1>
+            <p>O AWS Well-Architected Framework documenta um conjunto de questões
+                fundamentais que permitem entender se uma arquitetura específica esta
+                devidamente alinhada com as melhores práticas de Cloud.</p>
+            <p>
+                O Framework prove um enfoque consistente para a avaliação de Sistema de acordo
+                com a qualidade esperada para modernos sistemas baseados em Cloud e a
+                remediação necessária para atingir essa qualidade.
+            </p>
+            <p>
+                Como a AWS continua envolvida e tem um aprendizado contínuo trabalhando com
+                os clientes, a AWS continua a refinar a definição de melhor arquitetura.
+            </p>
+            <p>
+                Depois de desenhar e revisar milhares de arquiteturas de clientes, a
+                AWS identificou melhores práticas e principais estratégias para
+                arquitetar sistemas para Cloud e criou um White Paper.
+            </p>
+
+            <h1>Framework
+                5 Pilares</h1>
+
+                <details>
+                    <summary>Operational Excellence</summary>
+                    <p>Concentra em executar e monitorar sistemas para entregar valor empresarial e melhorar continuamente processos
+                        e procedimentos. Os principais tópicos incluem gerenciamento e automação de alterações, reação a eventos e
+                        definição de padrões para gerenciar com êxito as operações diárias.<br>
+<br>
+                        Principais Serviços da AWS:<br>
+                        <br>
+                        • AWS Config<br>
+                        •Amazon Cloudwatch<br>
+                        • AWS CloudFormation<br>
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Security</summary>
+                    <p>Concentra em proteger informações e sistemas. Os principais tópicos incluem confidencialidade e integridade de
+                        dados, identificação e gerenciamento de quem pode fazer o quê com o gerenciamento de privilégios, proteção
+                        de sistemas e estabelecimento de controles para detectar eventos de segurança.<br>
+                        <br>
+                        Principais Serviços da AWS:<br>
+                        • IAM<br>
+                        • Cloudtrail<br>
+                        • WAF<br>
+                        • KMS<br>
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Reliability</summary>
+                    <p>Concentra na capacidade de evitar e se recuperar rapidamente das falhas para atender a demanda comercial e
+                        de clientes. Os principais tópicos incluem elementos básicos sobre configuração, requisitos entre projetos,
+                        planejamento de recuperação e como lidamos com as mudanças.<br>
+                        <br>
+                        Principais Serviços da AWS:<br>
+                        • AWS CloudFormation<br>
+                        • Amazon CloudWatch<br>
+                        • S3<br>
+                        • Glacier<br>
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Performance Efficiency</summary>
+                    <p>Concentra no uso eficiente de recursos de TI e computação. Os principais tópicos incluem seleção dos tipos e dos
+                        tamanhos certos dos recursos, tomando como base os requisitos de carga de trabalho, a performance do
+                        monitoramento e a tomada de decisões fundamentadas para manter a eficiência à medida que as necessidades
+                        comerciais evoluem.<br>
+                        <br>
+                        Principais Serviços da AWS:<br>
+                        • Autoscaling<br>
+                        • Elasticcache<br>
+                        • CloudWatch<br>
+                        • CloudFront<br>
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Cost Optimization</summary>
+                    <p>Visa a evitar gastos desnecessários. Os principais tópicos incluem compreensão e controle de onde o dinheiro está
+                        sendo gasto, seleção do número certo e mais adequado dos tipos de recurso, análise dos gastos ao longo do
+                        tempo e escalabilidade para atender às necessidades de negócios sem gastar excessivamente.<br>
+                        <br>
+                        Principais Serviços da AWS:<br>
+                        • Tag Resources<br>
+                        • AWS Cost Explorer<br>
+                        • Autoscaling<br>
+                    </p>
+                </details>
+
+                <h1>Estrutura do White Paper</h1>
+                <ul>
+                    <li>
+                        Orientações Gerais para o Design de uma arquitetura bem definida
+                    </li>
+
+                    <li>
+                        Princípios de Design para cada Pilar
+                    </li>
+
+                    <li>
+                        Melhores práticas por Pilar com Perguntas e Respostas
+                    </li>
+
+                    <li>
+                        Muitos serviços da AWS são mencionados em cada pilar
+                    </li>
+                </ul>
+
+                <h1>Orientações Gerais de Design</h1>
+                <ul>
+                    <li>
+                        Pare de adivinhar a capacidade necessária
+                    </li>
+
+                    <li>
+                        Teste os sistemas na mesma escala de produção
+                    </li>
+
+                    <li>
+                        Automatize para tornar a experimentação da arquitetura fácil
+                    </li>
+
+                    <li>
+                        Permitir arquiteturas evolutivas
+                    </li>
+
+                    <li>
+                        Arquiteturas orientada a dados
+                    </li>
+
+                    <li>
+                        Melhorar nos dias de jogo
+                    </li>
+                </ul>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

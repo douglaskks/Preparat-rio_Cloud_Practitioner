@@ -1,0 +1,18 @@
+body{
+    background-color: #202066;
+}
+header{
+    padding: 20px;
+}
+main{
+    padding: 10px;
+    text-align: left;
+    text-align: justify;
+    height: 100%;
+    width: 600px;
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
