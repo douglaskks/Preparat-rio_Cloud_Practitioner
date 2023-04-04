@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/alcance.css">
+    <title>Alcance Global</title>
+</head>
+<body>
+    <header>
+        <a class="button_voltar" href="/html/cloud/cloud.html">Voltar</a>
+    </header>
+
+    <main>
+        <div>
+            <h1>Alcance Global da AWS</h1>
+            <ul>
+                <li>Regiões ( Regions )</li>
+                <li>Zonas de Disponibilidade - (Availability Zones) - AZ</li>
+                <li>Localidades de Borda
+                    Pontos de Presença - (Edge Locations)</li>
+            </ul>
+
+            <h1>Regiões ( Regions )</h1>
+            <ul>
+                <li>
+                    Regiões são as localidades físicas onde a AWS
+                    está disponível ao redor do mundo.
+                </li>
+                <li>
+                    Nos Estados Unidos por exemplo a AWS tem
+                    muitas regiões.
+                </li>
+            </ul>
+
+            <h1>Zonas de Disponibilidade</h1>
+            <ul>
+                <li>Zonas de Disponibilidade, é a quantidade
+                    de datacenters que a AWS tem em cada
+                    uma das regiões para prover serviços e
+                    produtos.</li>
+            </ul>
+
+            <details>
+                <summary>Sobre as Zonas de Disponibilidade</summary>
+                <p>
+                    <ul>
+                        <li>
+                            Alta disponibilidade, desempenho, tolerância a falhas, disaster recovery
+                        </li>
+
+                        <li>
+                            No mínimo 2-duas Zonas de Disponibilidade por Região
+                        </li>
+
+                        <li>
+                            Recursos podem ser replicados entre Zonas de Disponibilidade e estarem disponíveis
+                            imediatamente em caso de falha de uma Zona de Disponibilidade
+                        </li>
+
+                        <li>
+                            Zonas de Disponibilidade são importantes tanto no contexto tecnológico como no contexto
+                            legal
+                        </li>
+
+                        <li>
+                            Alguns governos ao redor do mundo, não permitem que informações financeiras, de saúde ou
+                            governamentais sejam publicadas ou hospedadas em ambientes fora do país.
+                        </li>
+
+                        <li>
+                            Com uma região no país isso é resolvido, pois as zonas de disponibilidade que compõem
+                            aquela região é colocada fisicamente no país.
+                        </li>
+                    </ul>
+
+                    <h5>Observação!</h5>
+                    <p>AWS NUNCA, NUNCA move ou copia dados ou recursos
+                        entre regiões sem que o dono do recurso solicite isso de
+                        forma explícita, ou seja, a AWS não move dados do Brasil
+                        para USA ou o inverso se o dono do recurso, ou seja, você
+                        faça essa movimentação</p>
+                </p>
+            </details>
+
+            <h1>Edge Locations (Pontos de Presença)</h1>
+            <p>Edge Location é basicamente uma localidade, em várias partes
+                do mundo, onde é utilizado o serviço de CDN da AWS, chamado
+                CloudFront para entrega de conteúdo.</p>
+            <p>
+                CDN - Content Delivery Network, que é responsável por acelerar
+                a entrega de conteúdo, principalmente estático, como por
+                exemplo páginas html, imagens, vídeos, arquivos, etc.
+            </p>
+            <p>
+                O Edge Location é um elemento que pode existir em localidades
+                que ainda não tenha uma região da AWS ou Zonas de
+                Disponibilidade.
+            </p>
+            <p>
+                Para que isso aconteça a AWS trabalha com diversos parceiros
+                ao redor do mundo.
+            </p>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
